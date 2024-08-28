@@ -1,15 +1,25 @@
+The new features introduced in Spring Boot 3 are :
 
-Spring Boot 3 introduces several new features and improvements. Here's an overview of some key enhancements:
+1. Java 17 as the Minimum Required Version : 
 
+Spring Boot 3.0 requires Java 17 as the minimum version. This means that Spring Boot 3 leverages the latest language features, APIs, and JVM improvements available in Java 17 and above
 
-Java 17 Baseline : Spring Boot 3 sets Java 17 as the minimum required version. This allows developers to take advantage of the latest language features and JVM improvements introduced in Java 17.
+2.Improved Native Image Support:
 
-Improved Docker Support : Enhancements in building Docker images using the paketo buildpacks. This makes it easier to containerize Spring Boot applications with minimal configuration.
+Native image support is improved with better integration with GraalVM, allowing you to compile Spring Boot applications to native executables, reducing startup time and memory usage.
 
-Improved Observability : Spring Boot 3 includes several enhancements in observability, with better integration for metrics, tracing, and logging. This includes support for Micrometer, which is used to provide production-ready metrics
+3.Enhanced Observability:
 
-Changes in Dependency Management : Updated and streamlined dependencies, including major upgrades to libraries like Hibernate, Jackson, and Tomcat. Some older dependencies have been removed in favor of more modern alternatives.
+Spring Boot 3 includes better observability and tracing support with integrated Micrometer and OpenTelemetry, making it easier to monitor and diagnose your applications.
 
-Enhanced Security : Improved security features, including updated cryptography standards and better defaults for securing Spring Boot applications.
+4.Spring Framework 6 Integration:
 
-Updated Spring Framework 6 : Spring Boot 3 is built on Spring Framework 6, which itself introduces a range of new features, improvements, and deprecations in alignment with the modern Java ecosystem
+Spring Boot 3 is built on top of Spring Framework 6, which includes various improvements such as AOT (Ahead-of-Time) processing and enhanced support for reactive programming.
+
+5.Jakarta EE 9+ Alignment:
+
+The migration from javax to jakarta namespace aligns with the latest Jakarta EE specifications, ensuring compatibility and forward-looking development.
+
+6.Simplified Configuration:
+
+Configuration properties and settings have been streamlined for better readability and maintainability.
